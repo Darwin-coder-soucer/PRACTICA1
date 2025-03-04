@@ -1,8 +1,9 @@
 name: flujoTrabajo1
-on:[push] # Evento que dispara el flujo de trabajo
+on: [push]  # Evento que dispara el flujo de trabajo
+
 jobs:
   prueba1:
-     runs-on: ubuntu-latest
-     steps:
-        - name: mensaje
-          run: echo "primera interccion con git actions"
+    runs-on: ubuntu-latest
+    steps:
+      - name: mensaje
+        run: echo "primera interaccion con git actions"
