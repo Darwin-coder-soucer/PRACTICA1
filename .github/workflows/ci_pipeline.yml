@@ -19,3 +19,9 @@ jobs:
 
       - name: muestra contenido del archivo
         run: cat alumnos.txt
+
+  prueba2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: muestra contenido de alumnos
+        run: cat alumnos.txt
