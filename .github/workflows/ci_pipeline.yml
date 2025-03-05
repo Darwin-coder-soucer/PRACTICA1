@@ -8,5 +8,5 @@ jobs:
       - name: mensaje
         run: echo "primera interaccion con git actions"
 
-        -name: Crear Archivo
+      - name: Crear Archivo
         run: touch alumnos.txt
